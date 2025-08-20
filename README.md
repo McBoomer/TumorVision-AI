@@ -13,6 +13,16 @@ I designed this tool to be simple and interactive, using **Keras for the neural 
 
 ---
 
+## Dataset
+
+The dataset I used comes from Kaggle: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)  
+
+You can download it and place it in your project folder under `dataset/Brain Tumor MRI Dataset` to use it with the program.
+
+The dataset is already interpereted by the machine learning model keras in a file called 'brain_tumor_model.h5'
+
+---
+
 ## Why I Built This
 
 Brain scanning technology has always been something that matters deeply to me. I’ve seen firsthand how critical early and accurate detection can be for people’s lives. Knowing that machine learning could help doctors interpret scans faster and more accurately inspired me to take on this project.  
