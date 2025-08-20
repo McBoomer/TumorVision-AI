@@ -3,6 +3,54 @@
 ### By Muadh Khan  
 *Markham, Ontario – August 2025*
 
+## Components / Skills
+
+### Technical Skills / Tools
+
+1. **Keras Machine Learning**
+   - Keras is a high-level API designed for building and training neural networks. It provides a user-friendly interface that simplifies the process of creating machine learning models, especially for developers who prioritize ease of use and rapid prototyping.  
+   - In this project, it was used to build a CNN capable of classifying brain MRI images into glioma, meningioma, or no tumor.  
+   - The trained model is saved as a `.h5` file, which can be loaded directly to make predictions without retraining.  
+
+2. **Python**
+   - Core programming language for the project, used to implement the model, preprocessing, and GUI.  
+   - Libraries included: `numpy` for numerical operations, `Pillow` for image processing, `tkinter` for GUI development.
+
+3. **Dataset Handling**
+   - The project uses the **Kaggle Brain Tumor MRI Dataset**, which includes over **5,000 scans** across training and testing sets.  
+   - Images were loaded, resized, and normalized to prepare them for the CNN.  
+   - The network has learned from this dataset to distinguish between glioma, meningioma, and no tumor scans.
+
+4. **Tkinter GUI**
+   - Built a simple, interactive interface for users to upload MRI images and view predictions.  
+   - Demonstrates the integration of machine learning with user-facing software.
+
+5. **Model Persistence**
+   - Saving and reusing the trained model demonstrates understanding of practical deployment of machine learning in real-world applications.
+
+---
+
+### Soft Skills / Project Skills
+
+1. **Problem Solving**
+   - Tackled the challenge of classifying medical images and designing a workflow from dataset loading to prediction.  
+
+2. **Attention to Detail**
+   - Ensured images were correctly preprocessed (resized, normalized) for optimal model performance.  
+
+3. **Project Management**
+   - Organized scripts (`main.py`, `model.py`, `keras_ml_loader.py`, GUI) and maintained a clear separation between training and prediction.  
+
+4. **Learning & Adaptability**
+   - Researched and switched between TensorFlow and Keras when necessary, choosing the most efficient approach for this project.  
+
+5. **Communication**
+   - Designed the GUI and README to clearly convey functionality, usage instructions, and the motivation behind the project.
+
+6. **Passion for Healthcare Technology**
+   - Demonstrated commitment to using AI to improve brain scanning and early detection of brain tumors.
+
+
 ---
 
 ## About This Project
