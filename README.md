@@ -1,6 +1,10 @@
 By Muadh Khan  
 Markham, Ontario – August 2025  
 
+## Video Demo
+
+https://github.com/user-attachments/assets/92b0f9ba-d280-461d-947b-0adf17d184db
+
 ## Components / Skills
 
 ### Technical Skills / Tools
