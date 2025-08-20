@@ -5,9 +5,9 @@ Markham, Ontario – August 2025
 
 https://github.com/user-attachments/assets/92b0f9ba-d280-461d-947b-0adf17d184db
 
-## Components / Skills
+# Components / Skills
 
-### Technical Skills / Tools
+## Technical Skills / Tools
 
 **Keras Machine Leearning**  
 
