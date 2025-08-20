@@ -1,99 +1,95 @@
-# Brain Tumor MRI Classifier
-
-### By Muadh Khan  
-*Markham, Ontario – August 2025*
+By Muadh Khan  
+Markham, Ontario – August 2025  
 
 ## Components / Skills
 
 ### Technical Skills / Tools
 
-1. **Keras Machine Learning**
-   - Keras is a high-level API designed for building and training neural networks. It provides a user-friendly interface that simplifies the process of creating machine learning models, especially for developers who prioritize ease of use and rapid prototyping.  
-   - In this project, it was used to build a CNN capable of classifying brain MRI images into glioma, meningioma, or no tumor.  
-   - The trained model is saved as a `.h5` file, which can be loaded directly to make predictions without retraining.  
+**Keras Machine Leearning**  
 
-2. **Python**
-   - Core programming language for the project, used to implement the model, preprocessing, and GUI.  
-   - Libraries included: `numpy` for numerical operations, `Pillow` for image processing, `tkinter` for GUI development.
+Keras is a high-level API made for building and training neural netwroks. It gives a easy interface that makes it simpler to make machine learning modells, mostly for developers who like things quick and easy.  
+In this project, it was used to build a CNN that can tell brain MRI images apart into glioma, meningioma, or no tumor.  
+The trained model is saved as a `.h5` file, which can be loaded straight, to make guesses without retraining.  
 
-3. **Dataset Handling**
-   - The project uses the **Kaggle Brain Tumor MRI Dataset**, which includes over **5,000 scans** across training and testing sets.  
-   - Images were loaded, resized, and normalized to prepare them for the CNN.  
-   - The network has learned from this dataset to distinguish between glioma, meningioma, and no tumor scans.
+**Python**  
 
-4. **Tkinter GUI**
-   - Built a simple, interactive interface for users to upload MRI images and view predictions.  
-   - Demonstrates the integration of machine learning with user-facing software.
+Main programming langage for the project, used to write the model, preprocessing, and GUI.  
+Libraries used: `numpy` for math, `Pillow` for images, `tkinter` for GUI developement.  
 
-5. **Model Persistence**
-   - Saving and reusing the trained model demonstrates understanding of practical deployment of machine learning in real-world applications.
+**Dataset Handling**  
 
----
+The project uses the Kaggle Brain Tumor MRI Dataset, which has over **5,000 scans** in training and testing sets.  
+Images were loaded, resized, and normalized, so the CNN can read them right.  
+The network has learnt from this dataset to tell apart glioma, meningioma, and no tumor scans.  
+
+**Tkinter GUI**  
+
+Made a simple, interactive window for users to upload MRI images and see guesses.  
+Shows how machine learning can work with user programs, which is needed for testing, and use.  
+
+**Model Persistance**  
+
+Saving and reusing the trained model shows knowing how to use machine learning, in real-world stuff.  
 
 ### Soft Skills / Project Skills
 
-1. **Problem Solving**
-   - Tackled the challenge of classifying medical images and designing a workflow from dataset loading to prediction.  
+**Problem Solving**  
 
-2. **Attention to Detail**
-   - Ensured images were correctly preprocessed (resized, normalized) for optimal model performance.  
+Worked on the problem of telling medical images apart and made a way from loading data, to guess.  
 
-3. **Project Management**
-   - Organized scripts (`main.py`, `model.py`, `keras_ml_loader.py`, GUI) and maintained a clear separation between training and prediction.  
+**Attention to Detail**  
 
-4. **Learning & Adaptability**
-   - Researched and switched between TensorFlow and Keras when necessary, choosing the most efficient approach for this project.  
+Made sure images were correctly resized and normalized for best performence.  
 
-5. **Communication**
-   - Designed the GUI and README to clearly convey functionality, usage instructions, and the motivation behind the project.
+**Project Managment**  
 
-6. **Passion for Healthcare Technology**
-   - Demonstrated commitment to using AI to improve brain scanning and early detection of brain tumors.
+Kept scripts (`main.py`, `model.py`, `keras_ml_loader.py`, GUI) neat and split training and guessing parts.  
 
+**Learning & Adaptability**  
 
----
+Looked up and switched between TensorFlow and Keras when needed, picking the faster and easier way.  
+
+**Communication**  
+
+Made the GUI and README to clearly show how it works, instructions, and reason, behind the project.  
+
+**Passion for Healthcare Technology**  
+
+Showed care for using AI to help brain scanning  technology, and find tumors early.  
 
 ## About This Project
 
-This project is a **Brain Tumor MRI Classifier** that I built to explore how machine learning can assist in medical imaging. It allows a user to upload a brain MRI scan and predicts whether it shows a glioma, meningioma, or no tumor.  
+This project is a Brain Tumor MRI Classifier I built to see how machine learning can help with medical images. It lets a user upload a brain MRI scan and guesses if it shows a glioma, meningioma, or no tumor.  
 
-I designed this tool to be simple and interactive, using **Keras for the neural network** and **Tkinter for the GUI**, so anyone can test it on their own images without dealing with code.
-
----
+I made this tool simple and easy, using Keras for the neural network, and Tkinter for the GUI, so anyone can try it on their own pictures without coding.  
 
 ## Dataset
 
 The dataset I used comes from Kaggle: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)  
 
-You can download it and place it in your project folder under `dataset/Brain Tumor MRI Dataset` to use it with the program.
+You can get it and put it in your project folder under `dataset/Brain Tumor MRI Dataset` to use with the program.  
 
-The dataset is already interpereted by the machine learning model keras in a file called 'brain_tumor_model.h5'
-
----
+The dataset is already read by the machine learning model Keras in a file called `'brain_tumor_model.h5'`.  
 
 ## Why I Built This
 
-Brain scanning technology has always been something that matters deeply to me. I’ve seen firsthand how critical early and accurate detection can be for people’s lives. Knowing that machine learning could help doctors interpret scans faster and more accurately inspired me to take on this project.  
+Brain scanning  technology has always been something that is important to me. I’ve seen how early and correct detection, can help people’s lives. Knowing that machine learning could help doctors read scans faster, and more correct made me start this project.  
 
-This is more than just a coding exercise—it’s a personal step toward understanding **how AI can meaningfully assist in healthcare**, particularly in areas where speed and precision can make a real difference.
-
----
+This is more than just coding—it’s a personal step to see how AI can help in healthcare, in places where speed, and accuracy can make a real difference.  
 
 ## How It Works
 
-1. **Load the Trained Model** – The program uses a pre-trained CNN (`brain_tumor_model.h5`) to classify MRI images.  
-2. **Select an Image** – Using the GUI, you can choose any brain MRI scan.  
-3. **Prediction** – The program processes the image, normalizes it, and predicts the class with confidence.  
-4. **Output** – The prediction is displayed alongside the uploaded image, making it easy to interpret.  
+- **Load the Trained Model** – The program uses a pre-trained CNN (`brain_tumor_model.h5`) to check MRI images.  
+- **Select an Image** – Using the GUI, you can pick any brain MRI scan.  
+- **Prediction** – The program changes the image, normalizes it, and guesses the class with confidence.  
+- **Output** – The guess is shown with the uploaded image, easy to read.  
 
-The model was trained on a dataset of brain MRI images, resized to 128×128 pixels, and normalized for best performance.
-
----
+The model was trained on brain MRI images, resized to 128×128 pixels, and normalized for best performence.  
 
 ## How to Use
 
-1. Make sure Python is installed on your computer.  
-2. Install the required packages:
+1. Make sure Python is on your computer.  
+2. Install the needed packages:
 
 ```bash
 pip install keras pillow numpy
